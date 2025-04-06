@@ -140,7 +140,7 @@ def command_line_interface():
     # Subcommand: Run
     parser_run = subparsers.add_parser("run", help="Run the model on webcam")
     parser_run.add_argument("model_path", type=str, help="Path to the model")
-    parser_run.add_argument("-wc", "--webcam", type=int, help="Webcam device index")
+    parser_run.add_argument("-wc", "--webcam", type=int, help="Webcam device index", default=0)
     parser_run.add_argument(
         "-r",
         "--record",
