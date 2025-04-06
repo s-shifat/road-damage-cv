@@ -1,0 +1,20 @@
+usage: main.py [-h] {list,run} ...
+
+positional arguments:
+  {list,run}
+    list      List available webcam devices
+    run       Run the model on webcam
+
+options:
+  -h, --help  show this help message and exit
+
+usage: main.py run [-h] [-wc WEBCAM] [-r] model_path
+
+positional arguments:
+  model_path            Path to the model
+
+options:
+  -h, --help            show this help message and exit
+  -wc, --webcam WEBCAM  Webcam device index
+  -r, --record          If passed, the video will be recorded and saved to
+                        ./recorded_videos/
