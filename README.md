@@ -4,8 +4,8 @@
 
 - Clone this repository and cd into it
     ```bash
-    git clone ... 
-    cd ...
+    git clone https://github.com/s-shifat/road-damage-cv.git 
+    cd road-damage-cv
     ```
 
 -  Create a virtual environment
