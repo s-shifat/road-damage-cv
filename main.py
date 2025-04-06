@@ -154,7 +154,7 @@ def command_line_interface():
         list_webcam_devices()
 
     elif args.command == "run":
-        app = Cholo_Bump_Dekhi(args.model_path, record=args.record)
+        app = Cholo_Bump_Dekhi(args.model_path, webcam_device=args.webcam, record=args.record)
         app.start_video()
 
 
