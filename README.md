@@ -1,5 +1,7 @@
 # Road Damage Detection Using CV
 
+The code in this repository already assumes you already have a trained model that you want to plug with open-cv.
+
 ## Setup
 
 - Clone this repository and cd into it
@@ -81,3 +83,7 @@ options:
                         ./recorded_videos/
 
 ```
+
+
+## Related
+If you want to setup a gpu enabled training environment for pytorch and yolo in windows, I have written a gist explaining the setup. Please visit [this](https://gist.github.com/s-shifat/eab8453508c446b3379b9b4eccae4042). 
