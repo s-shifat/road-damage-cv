@@ -1,6 +1,6 @@
 # Road Damage Detection Using CV
 
-The code in this repository already assumes you already have a trained model that you want to plug with open-cv.
+The code in this repository assumes you already have a trained model that you want to plug in with open-cv.
 
 ## Setup
 
